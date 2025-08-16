@@ -1,0 +1,133 @@
+.workex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-y: auto;
+    height: 100vh;
+
+    .text-zone {
+        margin-bottom: 40px;
+
+        h1 {
+            font-size: 65px;
+            font-weight: bold;
+            color: #00fff2;
+            margin-bottom: 20px;
+
+            .text-animate-hover {
+                display: inline-block;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .timeline {
+        position: relative;
+        padding: 20px 0;
+        margin: 0 auto;
+        width: 80%;
+        max-width: 1200px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background-color: #00fff2;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+        }
+
+        .timeline-item {
+            position: relative;
+            width: 50%;
+            padding: 10px 40px;
+            box-sizing: border-box;
+
+            &.left {
+                left: 0;
+            }
+
+            &.right {
+                left: 50%;
+            }
+
+            .timeline-content {
+                background-color: #222;
+                padding: 20px;
+                border-radius: 8px;
+                position: relative;
+                box-shadow: 0 0 10px #000;
+
+                h2 {
+                    font-size: 24px;
+                    color: #00fff2;
+                }
+
+                h3 {
+                    font-size: 18px;
+                    color: #00fff2;
+                }
+
+                span {
+                    font-size: 16px;
+                    color: #fff;
+                }
+
+                ul {
+                    list-style-type: disc;
+                    margin: 15px 0 0 20px;
+                    padding: 0;
+
+                    li {
+                        font-size: 16px;
+                        color: #fff;
+                        line-height: 1.5;
+                        margin-bottom: 10px;
+                        position: relative;
+
+                        &::marker {
+                            color: #00fff2;  // Neon color for bullet points
+                        }
+
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            left: -25px;
+                            top: 0;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #00fff2;
+            box-shadow: 0 0 10px #000;
+        }
+
+        .timeline-item.left::before {
+            right: -10px;
+        }
+
+        .timeline-item.right::before {
+            left: -10px;
+        }
+    }
+}
