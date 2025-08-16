@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shreejitcheela/static/css/main.84bd22f8.css",
+    "main.js": "/shreejitcheela/static/js/main.6908c07b.js",
+    "static/js/453.e69323f7.chunk.js": "/shreejitcheela/static/js/453.e69323f7.chunk.js",
+    "static/media/me.png": "/shreejitcheela/static/media/me.48b960578b9e08657019.png",
+    "static/media/da.png": "/shreejitcheela/static/media/da.b248e080d78f4a1c653d.png",
+    "static/media/helvetica-neu.ttf": "/shreejitcheela/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/shreejitcheela/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/shreejitcheela/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/shreejitcheela/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/shreejitcheela/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/shreejitcheela/index.html",
+    "main.84bd22f8.css.map": "/shreejitcheela/static/css/main.84bd22f8.css.map",
+    "main.6908c07b.js.map": "/shreejitcheela/static/js/main.6908c07b.js.map",
+    "453.e69323f7.chunk.js.map": "/shreejitcheela/static/js/453.e69323f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84bd22f8.css",
+    "static/js/main.6908c07b.js"
+  ]
+}
